@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to develop and compare machine learning models for image classification on the CIFAR-10 dataset. We focused on a Support Vector Machine (SVM) model, an Artificial Neural Network (ANN) using Keras, and a Convolutional Neural Network (CNN) with a pre-trained ResNet model. Special attention was given to hyperparameter tuning using GridSearchCV to optimize model performance.
+In this project I aimed to develop and compare machine learning models for image classification on the CIFAR-10 dataset. I focused on a Support Vector Machine (SVM) model, an Artificial Neural Network (ANN) using Keras, and a Convolutional Neural Network (CNN) with a pre-trained ResNet model. Special attention was given to hyperparameter tuning using GridSearchCV to optimize model performance.
 
 ## Dataset
 
@@ -51,7 +51,7 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6
 
 ## Conclusion
 
-The project demonstrates the effectiveness of CNNs, particularly ResNet, in image classification tasks, outperforming traditional machine learning models in accuracy and computational efficiency.
+In conclusion, all the Kernel SVM, KNN, ANN, CNN, and ResNet were able to classify images from the CIFAR-10 dataset with reasonable accuracy. However, the convolutional neural network, specially ResNet, outperformed the other models in terms of test accuracy and computation time. That is mainly because the convolutional layers used methods to extract meaningful features out of the images using filters, maxpooling, etc. It also handles the large image datasets much better because it first reduces the size of one dimensional vector to feed to the Fully connected NN layers whereas in other method the whole image vector was flattened and vectorized. Further improvements can be made by exploring other architectures such as ImageNet or LeNet and also fine-tuning the models' hyperparameters in a more systematic manner.
 
 ## Requirements
 
@@ -62,4 +62,4 @@ The project demonstrates the effectiveness of CNNs, particularly ResNet, in imag
 
 ## Usage
 
-Instructions on how to set up, train, and evaluate the models are provided in each subdirectory.
+Instructions on how to set up, train, and evaluate the models are provided in each subdirectory of the PDF file.
